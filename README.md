@@ -1,5 +1,5 @@
 # IDCard-Verify
-China's second-generation ID card verification 
+China's second-generation ID card verification and analysis
 
 # Feature
 - [X] Correctness Recognition
