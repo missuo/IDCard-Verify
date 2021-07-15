@@ -97,7 +97,7 @@ function checkIdCard($idcard){
 
 if(checkIdCard($id) == true){
     $address_code = substr($id,0,6);
-    $conn = new mysqli('localhost', 'adoc', 'adoc001', 'adoc');
+    $conn = new mysqli('localhost', 'root', 'root2021', 'idcard');
 	$sql = "SELECT address FROM fullinfo where numid='$address_code' LIMIT 1";
 	$res = $conn->query($sql);
 	if ($res -> num_rows > 0) {
