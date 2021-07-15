@@ -12,7 +12,7 @@ China's second-generation ID card verification
 ```
 https://iij.asia/idcard?id=1021321999010112232
 ```
-**Just need to send a POST or GET request to the above interface. **
+**Just need to send a POST or GET request to the above interface. 
 
 ## Correct return
 ```json
