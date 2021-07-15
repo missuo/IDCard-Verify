@@ -12,17 +12,17 @@ China's second-generation ID card verification
 ```
 https://iij.asia/idcard?id=1021321999010112232
 ```
-*** Just need to send a POST or GET request to the above interface. 
+**Just need to send a POST or GET request to the above interface.** 
 
 ## Correct return
 ```json
 {
     "code": 200,
     "verify": "核验通过",
-    "idcard": "31010320010516****",
-    "address": "上海市卢湾区",
-    "constellations": "金牛座",
-    "birthday": "2001年5月16日",
+    "idcard": "33041120010402",
+    "address": "浙江省嘉兴市秀洲区",
+    "constellations": "白羊座",
+    "birthday": "2001年4月2日",
     "gender": "女",
     "author": "Vincent Young",
     "contact": "https://t.me/missuo"
