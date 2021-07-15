@@ -8,6 +8,27 @@ China's second-generation ID card verification
 - [X] Constellation Recognition
 - [X] Gender Recognition
 
+# How to Use
+```
+https://iij.asia/idcard?id=1021321999010112232
+```
+**Just need to send a POST or GET request to the above interface. **
+
+## Correct return
+```json
+{
+    "code": 200,
+    "verify": "核验通过",
+    "idcard": "31010320010516****",
+    "address": "上海市卢湾区",
+    "constellations": "金牛座",
+    "birthday": "2001年5月16日",
+    "gender": "女",
+    "author": "Vincent Young",
+    "contact": "https://t.me/missuo"
+}
+```
+
 # Programming environment
 - CentOS 7.9
 - PHP 7.3
@@ -15,7 +36,7 @@ China's second-generation ID card verification
 - MySQL 5.6
 - Python 3.7
 
-# Instructions
+# Build Instructions
 ## Need to have a database to store address number information
 ```python
 import re
