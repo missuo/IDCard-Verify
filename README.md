@@ -83,7 +83,7 @@ db.close()
 
 function get_constellation($birth_month,$birth_date){
     $birth_month = strval($birth_month);
-    $constellation_name = array('水瓶座','双鱼座','白羊座','金牛座','双子座','巨蟹座','狮子座','处女座','天秤座','天蝎座)','射手座','摩羯座');
+    $constellation_name = array('水瓶座','双鱼座','白羊座','金牛座','双子座','巨蟹座','狮子座','处女座','天秤座','天蝎座','射手座','摩羯座');
     if ($birth_date <= 22){
         if ('1' !== $birth_month){
             $constellation = $constellation_name[$birth_month-2];
